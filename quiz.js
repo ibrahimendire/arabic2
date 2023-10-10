@@ -1,66 +1,78 @@
 const quizData = [
     {
-        question: "Which one is correct word for أَنَا",
-        choices: ["أَشْرَبَ", "أَشْرَبُ", "نَشْرَبُ"],
-        correct: 1,
-    },
-    {
-        question: "Which one is correct word for هُوَ",
-        choices: ["تَشْرَبَ", "تَشْرَبُ", "يَشْرَبُ"],
-        correct: 2,
-    },
-    {
-        question: "Which one is correct word for نَحْنُ",
-        choices: ["نَشْرَبُ", "تَشْرَبُ", "يَشْرَبُ"],
-        correct: 0,
-    },
-    {
-        question: "Which one is correct word for هِيَ",
-        choices: ["نَشْرَبُ", "تَشْرَبُ", "يَشْرَبُ"],
-        correct: 1,
-    },
-    {
-        question: "Which one is correct word for أَنْتَ",
-        choices: ["نَشْرَبُ", "تَشْرَبُ", "يَشْرَبُ"],
-        correct: 1,
-    },
-    {
-        question: "Which one is correct word for أَنْتِ",
-        choices: ["تَشْرَبِينَ", "تَشْرَبُ", "يَشْرَبُ"],
-        correct: 0,
-    },
-    {
-        question: "Which one is correct word for أَنْتُمَا",
+        question: "Select the right word for أَنْتُمَا",
         choices: ["تَشْرَبِينَ", "تَشْرَبُ", "تَشْرَبَانِ"],
         correct: 2,
     },
     {
-        question: "Which one is correct word for هُمَا(2 boy) ",
-        choices: ["تَشْرَبِينَ", "يَشْرَبَانِ", "تَشْرَبَانِ"],
+        question: "Select the right word for هُمَا(2 girl)",
+        choices: ["تَشْرَبُونَ", "يَشْرَبَانِ", "تَشْرَبَانِ"],
+        correct: 2,
+    },
+    {
+        question: "Select the right word for هُوَ",
+        choices: ["تَشْرَبَ", "تَشْرَبُ", "يَشْرَبُ"],
+        correct: 2,
+    },
+    {
+        question: "Select the right word for نَحْنُ",
+        choices: ["نَشْرَبُ", "تَشْرَبُ", "يَشْرَبُ"],
+        correct: 0,
+    },
+    {
+        question: "Select the right word for هِيَ",
+        choices: ["نَشْرَبُ", "تَشْرَبُ", "يَشْرَبُ"],
         correct: 1,
     },
     {
-        question: "Which one is correct word for أَنْتُمْ",
+        question: "Select the right word for أَنَا",
+        choices: ["أَشْرَبَ", "أَشْرَبُ", "نَشْرَبُ"],
+        correct: 1,
+    },
+    {
+        question: "Select the right word for أَنْتُمْ",
         choices: ["تَشْرَبُونَ", "يَشْرَبَانِ", "تَشْرَبَانِ"],
         correct: 0,
     },
     {
-        question: "Which one is correct word for هُمَا(2 girl)",
-        choices: ["تَشْرَبُونَ", "يَشْرَبَانِ", "تَشْرَبَانِ"],
+        question: "Select the right word for هُوَ",
+        choices: ["تَشْرَبَ", "تَشْرَبُ", "يَشْرَبُ"],
         correct: 2,
     },
     {
-        question: "Which one is correct word for هُنَّ",
+        question: "Select the right word for أَنْتَ",
+        choices: ["نَشْرَبُ", "تَشْرَبُ", "يَشْرَبُ"],
+        correct: 1,
+    },
+    {
+        question: "Select the right word for أَنْتِ",
+        choices: ["تَشْرَبِينَ", "تَشْرَبُ", "يَشْرَبُ"],
+        correct: 0,
+    },
+    
+    {
+        question: "Select the right word for هُمَا(2 boy) ",
+        choices: ["تَشْرَبِينَ", "يَشْرَبَانِ", "تَشْرَبَانِ"],
+        correct: 1,
+    },
+    {
+        question: "Select the right word for أَنْتُمْ",
+        choices: ["تَشْرَبُونَ", "يَشْرَبَانِ", "تَشْرَبَانِ"],
+        correct: 0,
+    },
+    
+    {
+        question: "Select the right word for هُنَّ",
         choices: ["تَشْرَبُونَ", "يَشْرَبَانِ", "يَشْرَبْنَ"],
         correct: 2,
     },
     {
-        question: "Which one is correct word for أَنْتُنَّ",
+        question: "Select the right word for أَنْتُنَّ",
         choices: ["تَشْرَبُونَ", "تَشْرَبْنَ", "يَشْرَبْنَ"],
         correct: 1,
     },
     {
-        question: "Which one is correct word for  هُمْ",
+        question: "Select the right word for هُمْ",
         choices: ["تَشْرَبُونَ", "تَشْرَبْنَ", "يَشْرَبُونَ"],
         correct: 2,
     },

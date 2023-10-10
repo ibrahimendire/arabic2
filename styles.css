@@ -19,13 +19,18 @@ body {
         background-image: url(imag3.png);
         opacity: 1;
     }
+    75% {
+        background-image: url(imag0.png);
+        opacity: 1;
+    }
     100% {
-        background-image: url(imag1.png`);
+        background-image: url(imag5.png);
         opacity: 1;
     }
 }
 #quiz-container {
-    max-width: 600px;
+    max-width: 900px;
+
     margin: 0 auto;
     padding: 20px;
     background-color: #cbe1d1;
@@ -40,7 +45,8 @@ h1 {
 }
 
 #question-container {
-    margin-top: 20px;
+    margin-top: 50px;
+
 }
 
 #question-text {
@@ -71,17 +77,18 @@ h1 {
 #result-text {
     font-size: 30px;
     margin-top: 10px;
-    color: #333333;
+    color: #1d2278;
+    padding-top: 80px;
 }
 
 #next-btn {
-    background-color: #007bff;
+    background-color: #3766b7;
     color: #ffffff;
     font-size: 30px;
     padding: 10px 20px;
     margin-top: 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     display: none;
 }
